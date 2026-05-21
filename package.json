@@ -1,23 +1,24 @@
 {
-  "name": "lg-web-project",
+  "name": "contents-automation",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "eBay listing content builder + LG product page auto-generator",
+  "main": "server.js",
   "scripts": {
+    "start": "node server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jaengminai-del/lg-web-project.git"
+    "url": "git+https://github.com/jaengminai-del/contents-automation.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "type": "commonjs",
   "bugs": {
-    "url": "https://github.com/jaengminai-del/lg-web-project/issues"
+    "url": "https://github.com/jaengminai-del/contents-automation/issues"
   },
-  "homepage": "https://github.com/jaengminai-del/lg-web-project#readme",
+  "homepage": "https://github.com/jaengminai-del/contents-automation#readme",
   "dependencies": {
     "@anthropic-ai/sdk": "^0.89.0",
     "cors": "^2.8.6",

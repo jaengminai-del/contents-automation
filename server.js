@@ -2301,9 +2301,9 @@ app.get('/api/proxy-image', async (req, res) => {
   }
 });
 
-const PORT = 3001;
+const PORT = process.env.PORT || 3001;
 app.listen(PORT, () => {
-  console.log(`\n✅ A+ Content Generator Server`);
+  console.log(`\n✅ Contents Automation Server`);
   console.log(`   http://localhost:${PORT}`);
   console.log(`   API Key: ${process.env.ANTHROPIC_API_KEY ? '✓ loaded' : '✗ missing'}\n`);
 });
