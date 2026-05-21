@@ -1,0 +1,77 @@
+/* ============================================
+   LG EI Font - @font-face Declarations
+   ============================================ */
+
+/* LG EI Text */
+@font-face {
+    font-family: 'LGEIText';
+    src: url('../fonts/LGEITextTTF-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'LGEIText';
+    src: url('../fonts/LGEITextTTF-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'LGEIText';
+    src: url('../fonts/LGEITextTTF-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'LGEIText';
+    src: url('../fonts/LGEITextTTF-Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+/* LG EI Headline */
+@font-face {
+    font-family: 'LGEIHeadline';
+    src: url('../fonts/LGEIHeadlineTTF-Thin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'LGEIHeadline';
+    src: url('../fonts/LGEIHeadlineTTF-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'LGEIHeadline';
+    src: url('../fonts/LGEIHeadlineTTF-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'LGEIHeadline';
+    src: url('../fonts/LGEIHeadlineTTF-Semibold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'LGEIHeadline';
+    src: url('../fonts/LGEIHeadlineTTF-Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}

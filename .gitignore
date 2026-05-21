@@ -1,0 +1,14 @@
+# Dependencies
+node_modules/
+
+# Runtime-generated
+ebay-listing/video-frames/
+*.log
+
+# macOS
+.DS_Store
+
+# Editor
+.vscode/
+.idea/
+*.swp
