@@ -1,0 +1,12 @@
+services:
+  - type: web
+    name: contents-automation
+    runtime: node
+    buildCommand: npm install
+    startCommand: node server.js
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: ANTHROPIC_API_KEY
+        sync: false   # Render 대시보드에서 직접 입력
+    autoDeploy: true
